@@ -1,0 +1,28 @@
+{
+    "name": "Code Crusader: Protect the digital realm",
+    "short_name": "Code Crusader",
+    "description": "An exciting shooter game developed in JavaScript",
+
+    "icons": [
+      {
+        "src": "assets/img/malo_muerto.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/img/malo_muerto.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#ffcc00",
+    "orientation": "portrait",
+
+    "lang": "en-US"
+ 
+ }
