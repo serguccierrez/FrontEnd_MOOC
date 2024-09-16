@@ -218,10 +218,10 @@ function initScoreSwiper() {
         autoplay: {
             delay: 1000,
         },
-        effect: 'flip',  // Añade el efecto de flip
+        effect: 'flip',  
         flipEffect: {
-            slideShadows: true,  // Habilita las sombras de los slides
-            limitRotation: true, // Limita la rotación para que solo se vea el slide activo
+            slideShadows: true,  
+            limitRotation: true, 
         },
     });
 }
