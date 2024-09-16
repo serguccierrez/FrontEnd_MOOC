@@ -213,13 +213,19 @@ function initScoreSwiper() {
         loop: true,
         pagination: {
             el: ".swiper-pagination",
-            type: "bullets",
+            type: "none",
         },
         autoplay: {
             delay: 1000,
         },
+        effect: 'flip',  // Añade el efecto de flip
+        flipEffect: {
+            slideShadows: true,  // Habilita las sombras de los slides
+            limitRotation: true, // Limita la rotación para que solo se vea el slide activo
+        },
     });
 }
+
 
 // Fase 7 - Hacer el jugador en game.html draggable con interact
 function makePlayerDraggable(player) {

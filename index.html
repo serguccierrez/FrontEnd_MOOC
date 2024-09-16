@@ -2,19 +2,6 @@
 <html class="no-js" lang="es">
   <head>
     <meta charset="utf-8" />
-
-    <link rel='manifest' href="manifest.json">
-
-    <meta name="description" content="An exciting shooter game developed in JavaScript">
-    <meta name="theme-color" content="#ffcc00">
-    <meta name="apple-mobile-web-app-title" content="Code Crusader">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="assets/img/malo_muerto.png">
-    <meta name="theme-color" content="#fafafa">
-    
-
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
@@ -49,7 +36,6 @@
   </head>
 
   <body>
-    <button id="butInstall" aria-label="Install" hidden>Download...</button>
     <div class="layout home">
       <!-- Cabecera de home -->
       <header>
@@ -150,22 +136,5 @@
 
     <!-- enunciados -->
     <script src="app/main.js"></script>
-
-
-<script>
- if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js').then(registration => {
-      console.log('Service Worker registrado con éxito:', registration);
-    }).catch(error => {
-      console.error('Error al registrar el Service Worker:', error);
-    });
-  });
-}
-
-</script>
-<script src="install.js"></script>
-
-
   </body>
 </html>
