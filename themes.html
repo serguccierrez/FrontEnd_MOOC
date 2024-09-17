@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Shooter : Themes</title>
+
+    <meta name="description" content="Pantalla de selección de temas para el juego" />
+    <link rel="apple-touch-icon" href="assets/img/icon.png" />
+    <link rel="shortcut icon" href="assets/img/characters/char_01.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="assets/sass/main.css" />
+
+    <!-- Material Icons -->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialdesignicons.css" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="app/libs/swiper.css">
+</head>
+
+<body>
+    <div class="layout single_page themes">
+        <!-- Título de la página -->
+        <header>
+            <h2 class="label">Themes</h2>
+        </header>
+
+        <!-- Sección de Temas -->
+        <main>
+            <section class="themes-section">
+                <h3>Select Your Theme</h3>
+                <div class="theme-item">
+                    <label for="theme-light">
+                        <input type="radio" id="theme-light" name="theme" checked>
+                        Light Theme
+                    </label>
+                </div>
+                <div class="theme-item">
+                    <label for="theme-dark">
+                        <input type="radio" id="theme-dark" name="theme">
+                        Dark Theme
+                    </label>
+                </div>
+                <div class="theme-item">
+                    <label for="theme-pastel">
+                        <input type="radio" id="theme-pastel" name="theme">
+                        Pastel Theme
+                    </label>
+                </div>
+            </section>
+        </main>
+
+        <!-- Navegación de ajustes -->
+        <footer>
+            <a href="index.html" class="btn btn_primary">Go back</a>
+        </footer>
+    </div>
+
+    <!-- Libs -->
+    <script src="app/libs/swiper.min.js"></script>
+    <script src="app/libs/anime.min.js"></script>
+</body>
+
+</html>
